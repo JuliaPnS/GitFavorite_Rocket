@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+    color: #E1E1E6;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0,);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+#app {
+    max-width: 112rem;
+    margin: 0 auto;
+    padding: 2rem;    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+ .search {
+    display: flex;
+    align-items: center;
+    gap:.8rem;
+ }
+
+.search input {
+    border-radius: .5rem;
+    background: #06181C;
+    border: none;
+
+    padding: 1.6rem;
+    width: 56.2rem;
+
+    color: white;
+}
+
+#input-search placeholder{
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.search button {
+    border: none;
+    border-radius: .5rem;
+    background: #065E7C;
+    
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    color: #FFFFFF;
+    padding: 1.6rem 3.2rem;
+
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    height: 4.8rem;
+}
+
+
+.search button:hover {
+    background: #054c63;
+
+}
+
+.user img {
+    width: 5.6rem;
+    height: 5.6rem;
+
+    border-radius: 5.6rem;
+}
+
+.user {
+    width: 50.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.user p, a {
+    text-decoration: none;
+}
+
+.user p {
+    font-weight: 700;
+}
+
+.remove, .search input, button {
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    margin-top: 8.7rem;
+}
+
+table * {
+    font-size: 2rem;
+    color: #E1E1E6;
+    line-height: 3.2rem;
+}
+
+table th {
+    text-align: left;
+    padding: 1.6rem 2.4rem 1.6rem 4rem;
+}
+
+table td {
+    text-align: left;
+    padding: 1.6rem 2.4rem 1.6rem 4rem;
+
+    height: 10.4rem;
+}
+
+thead {
+    background: #092D38;
+    height: 6.4rem;
+}
+
+table tr {
+    background: #06181C;
+    border-top: 1px solid #065E7C;
+}
+
+table tr:nth-child(odd) {
+    background: #06161B80;
+    border-top: 1px solid #065E7C;
+    border-radius: 1.2rem;   
+}
+
+table button {
+    border: none;
+    background: none;
+    color: #F75A68;
+}
+
+table {
+    outline: 1px solid #065E7C;
+    border-radius: 1.2rem;
+}
+
+.remove:hover {
+    color: #f73344;
+
+}
